@@ -10,14 +10,14 @@ body {
  width:100%;
  position:fixed;
  padding: 0%;
- z-index: 99999999;
+ z-index: 9999;
  bottom:0%;
 }
 
 	#wave1{
  width:100%;
  position: fixed;
- z-index: 99999999;
+ z-index: 999;
  padding: 0%;
  top:0%;
 }
@@ -66,12 +66,12 @@ body {
 }
 
 .rbg{
-			 height: 30%;
-				width: 100%;
-				margin-top: 0vh;
-				background-image: linear-gradient(to bottom, #a3004a, transparent);
-				position: absolute;
-				z-index: -99999;
+	height: 30%;
+	width: 100%;
+	margin-top: 0vh;
+	background-image: linear-gradient(to bottom, #a3004a, transparent);
+	position: absolute;
+	z-index: -999;
 }
 
 
@@ -80,7 +80,7 @@ body {
 	 margin-top: 130vh;
 	 position: absolute;
 	 color: green;
-	 z-index: 9999;
+	 z-index: 99;
 	 padding: 3%;
 	 font-family: 'Style Script', cursive;
 	 color: #fff; 
@@ -125,7 +125,7 @@ body {
 	margin-left: 35%;
 	position: absolute;
 	color: green;
-	z-index: 9999;
+	z-index: 99;
 	padding: 8%;
 	font-family: 'Style Script', cursive;
 	color: #fff; 
@@ -139,7 +139,7 @@ body {
 	margin-right: 30%;
 	position: absolute;
 	color: green;
-	z-index: 9999;
+	z-index: 99;
 	padding: 8%;
 	font-family: 'Style Script', cursive;
 	color: #fff; 
@@ -179,20 +179,27 @@ body {
 .credits{
 	position: absolute;
 	text-align: right;
+	right: 5%;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	font-weight: bold;
-	font-size: 2em;
+	font-size: 0.5em;
 	color: indigo;
-	z-index: 9999999;
+	z-index: 999999;
 	height: 80px;
-	bottom: 0%;
-	width: 100%;
-	margin-top: 313vh;
-	background-color: lawngreen;
+	width: 90%;
+	/* padding-top: 50px; */
+	/* margin-top: 3vh; */
+	margin-bottom: 10vh;
+	text-decoration: none;
+	color: #000;
+	/* background-color: lawngreen; */
+}
+.credits a{
+	text-decoration: none;
 }
 @media screen and (min-width: 480px) {
   body {
     background-color: #d2ffd2;
-		height: 352vh;
+		height: 335vh;
   }
 }
